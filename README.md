@@ -1,4 +1,4 @@
-![Dark-iCE](http://www.phoenixgameservers.net/images/Dark-iCELogo_50.png)
+<p align="center">![Dark-iCE](http://www.phoenixgameservers.net/images/Dark-iCELogo_50.png)</p>
 
 # AshamaneCore
 
