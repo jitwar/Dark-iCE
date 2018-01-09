@@ -38,6 +38,10 @@ It is completely open source; community involvement is highly encouraged.
 If you wish to contribute ideas or code please visit our site linked below or
 make pull requests to our [Github repository](https://github.com/AshamaneProject/AshamaneCore/pulls).
 
+# Dark-iCE
+
+Dark-iCE is a repack for AshamaneCore with some hybrid changes. This core is brought to you by 3raZar3 and Gemini.
+
 ## Requirements
 
 
@@ -47,8 +51,7 @@ Windows, Linux and macOS.
 
 ## Install
 
-Detailed installation guides are available in the [wiki](https://www.trinitycore.info/display/tc/Installation+Guide) for
-Windows, Linux and macOS.
+Dark-iCE is a self contained single player server for your average user. This is the source of our project, check the releases for our latest and greatest!
 
 
 ## Reporting issues
