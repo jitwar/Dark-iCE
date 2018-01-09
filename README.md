@@ -1,3 +1,5 @@
+![Dark-iCE](http://www.phoenixgameservers.net/images/Dark-iCELogo_50.png)
+
 # AshamaneCore
 
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/AshamaneProject/AshamaneCore.svg)](https://isitmaintained.com/project/AshamaneProject/AshamaneCore "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/AshamaneProject/AshamaneCore.svg)](https://isitmaintained.com/project/AshamaneProject/AshamaneCore "Percentage of issues still open")
