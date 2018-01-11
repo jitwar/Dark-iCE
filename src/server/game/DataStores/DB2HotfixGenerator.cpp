@@ -15,18 +15,16 @@
  * with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-// This is where scripts' loading functions should be declared:
-void AddSC_custom_npcs();
-void AddSC_solocraft();
-void AddSC_Player_Boa();
-void AddSC_custom_CongratsOnLevel();
+#include "DB2HotfixGenerator.h"
+#include "DB2Stores.h"
+#include "Log.h"
 
-// The name of this function should match:
-// void Add${NameOfDirectory}Scripts()
-void AddCustomScripts()
+void DB2HotfixGeneratorBase::LogMissingRecord(std::string const& storageName, uint32 recordId)
 {
-    AddSC_custom_npcs();
-	AddSC_solocraft();
-	AddSC_Player_Boa();
-	AddSC_custom_CongratsOnLevel();
+    TC_LOG_ERROR("db2.hotfix", "Hotfix specified for %s row id %u which does not exist", storageName.c_str(), recordId);
+}
+
+void DB2HotfixGeneratorBase::AddClientHotfix(uint32 tableHash, uint32 recordId)
+{
+    sDB2Manager.InsertNewHotfix(tableHash, recordId);
 }
